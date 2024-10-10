@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Progress Bar</title>
+    <link rel="stylesheet" href="circle.css">
+</head>
+<body>
+    <div class="progress_bars">
+        <div class="progress-item" data-percentage="75" data-color="#3b82f6">
+            <div class="progress-circle"></div>
+            <div class="progress-text">0%</div>
+        </div>
+        <div class="progress-item" data-percentage="85" data-color="#34d399">
+            <div class="progress-circle"></div>
+            <div class="progress-text">0%</div>
+        </div>
+        <div class="progress-item" data-percentage="95" data-color="#f87171">
+            <div class="progress-circle"></div>
+            <div class="progress-text">0%</div>
+        </div>
+    </div>
+
+    <!-- Load ProgressBar.js from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="circle.js"></script>
+</body>
+</html>

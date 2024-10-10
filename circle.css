@@ -1,0 +1,47 @@
+/* Container for progress bars */
+.progress_bars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.progress-item {
+    width: 200px;
+    margin: 20px;
+    position: relative;
+}
+
+/* Progress bar circle dimensions */
+.progress-circle {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Text inside the progress bar */
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .progress-item {
+        width: 150px;
+    }
+
+    .progress-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .progress-text {
+        font-size: 18px;
+    }
+}
